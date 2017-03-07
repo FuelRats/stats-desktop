@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-overflow: ellipsis;
+}
+
+html,
+body,
+#react-container {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100vw;
+}
+
+html {
+  font-size: 1vmax;
+}
+
+body,
+#react-container {
+  align-content: stretch;
+  align-items: stretch;
+  display: flex;
+}
+
+[data-reactroot] {
+  align-content: stretch;
+  align-items: stretch;
+  background-color: rgba(#222931, 1);
+  color: white;
+  display: flex;
+  flex-grow: 1;
+  font-size: 1.6rem;
+  line-height: 2;
+}
