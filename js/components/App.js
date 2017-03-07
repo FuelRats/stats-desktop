@@ -6,7 +6,7 @@ import React from 'react'
 
 
 // Component imports
-import Graph from './Graph'
+import OverallStats from './OverallStats'
 
 
 
@@ -25,7 +25,7 @@ export default class extends React.Component {
 
         <p>Wtf, mate?!</p>
 
-        <Graph />
+        <OverallStats />
       </main>
     )
   }
